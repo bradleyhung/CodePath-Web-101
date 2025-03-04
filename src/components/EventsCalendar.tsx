@@ -30,12 +30,12 @@ export default function EventsCalendar() {
         </h2>
         <div className="flex flex-col md:flex-row justify-evenly items-start">
           <div className="mb-8 md:mb-0 animate-bounce-slow">
-            <Calendar
+            {/* <Calendar
               mode="single"
               selected={selectedDate}
               onSelect={setSelectedDate}
               className="rounded-md border shadow bg-white dark:bg-gray-800"
-            />
+            /> */}
           </div>
           <div className="md:pl-8">
             <h3 className="text-2xl font-semibold text-purple-600 dark:text-purple-400 mb-4">

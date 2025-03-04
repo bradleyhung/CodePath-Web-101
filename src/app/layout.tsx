@@ -19,7 +19,7 @@ export default function Layout({ children }: LayoutProps) {
       </Head>
       <body>
         <div className="min-h-screen flex flex-col">
-          <main className="flex-grow container mx-auto p-4">{children}</main>
+          {children}
         </div>
       </body>
     </html>
