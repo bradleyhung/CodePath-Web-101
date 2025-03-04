@@ -27,7 +27,7 @@ export default function Home() {
               GirlsWhoCode BC
             </span>
           </Link>
-          <div className="flex items-center space-x-6">
+          <div className="md:flex hidden  items-center space-x-6">
             <Link
               href="#about"
               className="text-gray-600 hover:text-purple-600 dark:text-gray-300 dark:hover:text-purple-400 transition duration-300"
